@@ -1,0 +1,1699 @@
+
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 15:58:38) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:5: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 15:58:49) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 15:58:55) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:05:54) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-04-23 16:06:01) [GET]
+  [4;36;1mSQL (27.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 361ms (View: 2, DB: 27) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-04-23 16:06:08) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:06:15) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-04-23 16:06:21) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:06:28) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:06:42) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:06:53) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:07:01) [GET]
+Rendering say/hello
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-23 16:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/hello" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:21:25) [GET]
+Rendering say/hello
+Completed in 285ms (View: 243, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:22:43) [GET]
+Rendering say/hello
+Completed in 54ms (View: 53, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:28:25) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:29:21) [GET]
+Rendering say/hello
+Completed in 977ms (View: 975, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:29:46) [GET]
+Rendering say/hello
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:30:12) [GET]
+Rendering say/hello
+Completed in 41ms (View: 39, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:32:43) [GET]
+Rendering say/hello
+Completed in 46ms (View: 45, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:32:45) [GET]
+Rendering say/hello
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:32:46) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:32:46) [GET]
+Rendering say/hello
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-23 16:32:59) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-04-25 20:07:59) [GET]
+  [4;36;1mSQL (25.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 407ms (View: 68, DB: 26) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-04-25 20:08:00) [GET]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-04-25 20:08:06) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 20:08:10) [GET]
+Rendering say/hello
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 20:08:14) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 20:15:03) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 20:17:07) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:29:47) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:42:04) [GET]
+Rendering say/hello
+
+ActionView::TemplateError (undefined local variable or method `text' for #<ActionView::Base:0x1020e3398>) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= text %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:7:in `_run_rhtml_app47views47say47hello46rhtml'
+
+Rendered rescues/_trace (54.8ms)
+Rendered rescues/_request_and_response (24.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:43:44) [GET]
+Rendering say/hello
+
+ActionView::TemplateError (undefined local variable or method `text' for #<ActionView::Base:0x10113a630>) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= text %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:7:in `_run_rhtml_app47views47say47hello46rhtml'
+
+Rendered rescues/_trace (52.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-04-25 22:43:49) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:43:53) [GET]
+Rendering say/hello
+
+ActionView::TemplateError (undefined local variable or method `text' for #<ActionView::Base:0x10181f1a8>) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= text %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:7:in `_run_rhtml_app47views47say47hello46rhtml'
+
+Rendered rescues/_trace (113.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:44:24) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-25 22:54:15) [GET]
+Rendering say/hello
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 22:21:25) [GET]
+Rendering say/hello
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 22:22:32) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-04-26 22:24:48) [GET]
+  [4;36;1mSQL (38.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 229ms (View: 25, DB: 38) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 22:28:16) [GET]
+Rendering say/hello
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:07) [GET]
+Rendering say/hello
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:20) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:21) [GET]
+Rendering say/hello
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#hello (for 127.0.0.1 at 2011-04-26 23:14:25) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:4: unterminated string meets end of file
+/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:4: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (181.2ms)
+Rendered rescues/_request_and_response (12.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#hello (for 127.0.0.1 at 2011-04-26 23:14:26) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:4: unterminated string meets end of file
+/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:4: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:34) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:37) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:14:47) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:15:15) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:15:45) [GET]
+Rendering say/hello
+ERROR: compiling _run_rhtml_app47views47say47hello46rhtml RAISED compile error
+/Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:7: syntax error, unexpected tIVAR, expecting ')'
+...t_buffer.concat(( @text @lemon ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_rhtml_app47views47say47hello46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<html>\n\t<head>\n\t\t<title>Hello World</title>\n\t</head>\n\t<body>\n\t\t\t<p>Hello World!</p>\n\t\t\t<p><i>"
+
+
+
+
+
+; @output_buffer.concat(( @text @lemon ).to_s); @output_buffer.concat "<i></p>\n\t\t</body>\t\n</html>\t\t"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:12:in `compile!'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:7: syntax error, unexpected tIVAR, expecting ')'
+...t_buffer.concat(( @text @lemon ).to_s); @output_buffer.conca...
+                              ^) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= @text @lemon %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:12:in `compile!'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:15:47) [GET]
+Rendering say/hello
+ERROR: compiling _run_rhtml_app47views47say47hello46rhtml RAISED compile error
+/Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:7: syntax error, unexpected tIVAR, expecting ')'
+...t_buffer.concat(( @text @lemon ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_rhtml_app47views47say47hello46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<html>\n\t<head>\n\t\t<title>Hello World</title>\n\t</head>\n\t<body>\n\t\t\t<p>Hello World!</p>\n\t\t\t<p><i>"
+
+
+
+
+
+; @output_buffer.concat(( @text @lemon ).to_s); @output_buffer.concat "<i></p>\n\t\t</body>\t\n</html>\t\t"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:12:in `compile!'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/seanrose/Sites/my_app/app/views/say/hello.rhtml:7: syntax error, unexpected tIVAR, expecting ')'
+...t_buffer.concat(( @text @lemon ).to_s); @output_buffer.conca...
+                              ^) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= @text @lemon %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:12:in `compile!'
+
+Rendered rescues/_trace (104.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:15:59) [GET]
+Rendering say/hello
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:16:14) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:16:28) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-26 23:22:32) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-04-29 20:36:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: goodby and hello):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:36:47) [GET]
+Rendering say/hello
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:37:14) [GET]
+Rendering say/hello
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:38:13) [GET]
+Rendering say/hello
+Completed in 34ms (View: 33, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:38:14) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:38:47) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-29 20:40:12) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-04-30 17:03:16) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 70ms (View: 2, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:03:21) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:40:56) [GET]
+Rendering say/hello
+Completed in 140ms (View: 139, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:42:16) [GET]
+Rendering say/hello
+
+ActionView::TemplateError (undefined local variable or method `text' for #<ActionView::Base:0x101ddf1b0>) on line #7 of app/views/say/hello.rhtml:
+4: 	</head>
+5: 	<body>
+6: 			<p>Hello World!</p>
+7: 			<p><i><%= text %><i></p>
+8: 		</body>	
+9: </html>		
+
+    app/views/say/hello.rhtml:7:in `_run_rhtml_app47views47say47hello46rhtml'
+
+Rendered rescues/_trace (127.7ms)
+Rendered rescues/_request_and_response (12.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:42:26) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:47:05) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:51:06) [GET]
+Rendering say/hello
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:52:30) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:53:59) [GET]
+Rendering say/hello
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:54:02) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 17:56:29) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:00:29) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:00:46) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:01:44) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:02:09) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:02:16) [GET]
+Rendering say/hello
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:02:58) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:03:02) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:03:04) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:04:45) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:04:47) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:07:55) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:07:57) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:07:58) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:07:59) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:08:01) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:08:02) [GET]
+Rendering say/hello
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:08:03) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:08:04) [GET]
+Rendering say/hello
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:08:05) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:10:12) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:10:14) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:15:07) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:16:28) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:16:29) [GET]
+Rendering say/hello
+Completed in 136ms (View: 135, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:16:43) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:16:45) [GET]
+Rendering say/hello
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:16:46) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:16:52) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:18:29) [GET]
+Rendering say/hello
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:18:30) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:18:31) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:18:32) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:22:34) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:22:36) [GET]
+Rendering say/hello
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:22:42) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:23:00) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:23:02) [GET]
+Rendering say/goodbye
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:25:24) [GET]
+Rendering say/goodbye
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:25:28) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:26:30) [GET]
+Rendering say/hello
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:26:39) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:26:44) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:08) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:09) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:10) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:11) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:12) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:13) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:14) [GET]
+Rendering say/goodbye
+Completed in 49ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:15) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:17) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:18) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:21) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:22) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:24) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:27) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:35:29) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:35:30) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:05) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:12: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (89.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:09) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:12: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:13) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:12: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:34) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:36:36) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:36) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:36:37) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:36:38) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:36:51) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:37:16) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:17) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:27) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:28) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:37:29) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:32) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:37:34) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:36) [GET]
+Rendering say/hello
+Completed in 47ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:37) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:38) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:38) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:37:58) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:37:59) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:38:00) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:38:01) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:38:02) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:38:04) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:38:05) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:38:09) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 18:38:32) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:38:51) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:39:32) [GET]
+Rendering say/goodbye
+Completed in 48ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 18:39:35) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 21:47:13) [GET]
+Rendering say/goodbye
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:47:15) [GET]
+Rendering say/hello
+Completed in 49ms (View: 48, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 21:47:16) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:47:17) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 21:52:01) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 21:52:04) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:55:26) [GET]
+Rendering say/hello
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:43) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:46) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:51) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:53) [GET]
+Rendering say/goodbye
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:54) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:55) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:56:57) [GET]
+Rendering say/goodbye
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:57:06) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 21:57:22) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#welcome (for 127.0.0.1 at 2011-04-30 22:01:26) [GET]
+
+SyntaxError (/Users/seanrose/Sites/my_app/app/controllers/say_controller.rb:15: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (41.3ms)
+Rendered rescues/_request_and_response (23.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-04-30 22:02:14) [GET]
+Rendering say/hello
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-04-30 22:02:18) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 22:02:22) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-04-30 22:03:26) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-04-30 22:04:08) [GET]
+Rendering say/hello
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 22:06:29) [GET]
+Rendering say/goodbye
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-04-30 22:06:30) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-04-30 22:06:31) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:11:15) [GET]
+Rendering say/goodbye
+Completed in 35ms (View: 34, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:11:17) [GET]
+Rendering say/goodbye
+Completed in 36ms (View: 35, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:11:18) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:11:18) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:12:01) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:12:04) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:12:05) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:14:06) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:14:45) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 07:15:01) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:15:26) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:17:53) [GET]
+Rendering say/goodbye
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:18:49) [GET]
+Rendering say/hello
+
+ActionController::DoubleRenderError (Can only render or redirect once per action):
+  app/controllers/say_controller.rb:10:in `welcome'
+
+Rendered rescues/_trace (45.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:20:05) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:20:52) [GET]
+Rendering say/goodbye
+Completed in 74ms (View: 12, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:20:56) [GET]
+
+NameError (undefined local variable or method `hello' for #<SayController:0x102359ed8>):
+  app/controllers/say_controller.rb:4:in `index'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:21:41) [GET]
+
+NameError (undefined local variable or method `hello' for #<SayController:0x101de1258>):
+  app/controllers/say_controller.rb:4:in `index'
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (53.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:27:11) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:27:14) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:31:14) [GET]
+Redirected to http://localhost:3000/say/goodbye
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:31:14) [GET]
+Rendering say/goodbye
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:33:12) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:33:16) [GET]
+Redirected to http://localhost:3000/say/goodbye
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:33:16) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 07:35:21) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 07:35:25) [GET]
+Redirected to http://localhost:3000/say
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:35:25) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 07:35:37) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 22:12:02) [GET]
+Rendering say/goodbye
+Completed in 104ms (View: 40, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 22:12:03) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-01 22:12:12) [GET]
+Rendering say/hello
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-01 22:12:27) [GET]
+Redirected to http://localhost:3000/say
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-01 22:12:27) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-01 22:12:30) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-02 22:13:15) [GET]
+Rendering say/goodbye
+Completed in 45ms (View: 20, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-02 22:13:47) [GET]
+Rendering say/hello
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-02 22:14:00) [GET]
+
+ActionController::RoutingError (No route matches "/welcome" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-02 22:14:03) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-02 22:14:07) [GET]
+Redirected to http://localhost:3000/say
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-02 22:14:07) [GET]
+Rendering say/hello
+Completed in 68ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-03 09:21:17) [GET]
+Rendering say/goodbye
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-03 09:21:21) [GET]
+Redirected to http://localhost:3000/say
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-03 09:21:21) [GET]
+Rendering say/hello
+Completed in 339ms (View: 337, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-03 09:22:02) [GET]
+Redirected to http://localhost:3000/say
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-03 09:22:02) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-03 09:22:31) [GET]
+Redirected to http://localhost:3000/say/goodbye
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-03 09:22:31) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-03 09:22:34) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-03 09:25:16) [GET]
+Redirected to http://localhost:3000/say
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-03 09:25:16) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-03 22:17:58) [GET]
+Rendering say/goodbye
+Completed in 126ms (View: 82, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-03 22:18:03) [GET]
+Rendering say/hello
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-03 22:18:08) [GET]
+Redirected to http://localhost:3000/say
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-03 22:18:08) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-03 22:18:10) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-03 22:18:12) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-04 21:58:52) [GET]
+Rendering say/goodbye
+Completed in 167ms (View: 94, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-05-04 21:59:19) [GET]
+  [4;36;1mSQL (19.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 372ms (View: 100, DB: 19) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-05 08:56:11) [GET]
+Redirected to http://localhost:3000/say
+Completed in 114ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-05 08:56:12) [GET]
+Rendering say/hello
+Completed in 201ms (View: 172, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-05 08:58:53) [GET]
+
+ActionController::RoutingError (No route matches "/goodbye" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 08:59:04) [GET]
+Rendering say/goodbye
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#welcome (for 127.0.0.1 at 2011-05-05 09:01:59) [GET]
+Redirected to http://localhost:3000/say
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/say/welcome]
+
+
+Processing SayController#index (for 127.0.0.1 at 2011-05-05 09:01:59) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 09:02:56) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 09:02:59) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 09:03:01) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 09:10:44) [GET]
+Rendering say/goodbye
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#private_action (for 127.0.0.1 at 2011-05-05 09:10:51) [GET]
+
+ActionController::UnknownAction (No action responded to private_action. Actions: goodbye, hello, index, and welcome):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#private_action (for 127.0.0.1 at 2011-05-05 09:12:06) [GET]
+Rendering say/hello
+Completed in 57ms (View: 56, DB: 0) | 200 OK [http://localhost/say/private_action]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-05 09:14:15) [GET]
+Rendering say/hello
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-05 09:25:32) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-05 09:25:34) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
