@@ -2070,3 +2070,13 @@ Rendering rescues/layout (internal_server_error)
 Processing ExploreController#ruby_strings (for 127.0.0.1 at 2011-05-12 10:00:27) [GET]
 Rendering explore/ruby_strings
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_strings]
+
+
+Processing ExploreController#ruby_strings (for 127.0.0.1 at 2011-05-12 10:09:26) [GET]
+Rendering explore/ruby_strings
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_strings]
+
+
+Processing ExploreController#ruby_strings (for 127.0.0.1 at 2011-05-12 10:09:40) [GET]
+Rendering explore/ruby_strings
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_strings]
