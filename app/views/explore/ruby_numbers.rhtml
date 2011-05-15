@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Ruby Numbers</title>
+		</head>
+		<body>
+			
+		<%= (1 + (( 2 + 3) * 5)) /3%><br />
+		
+		20/3 = <%= 20/3 %><br />
+		20/3 = <%= 20/3.to_f %><br />
+		20/3 = <%= 20/3.to_f.round %><br />
+		20/3 = <%= 20/3.to_f.ceil %><br />
+		20/3 = <%= 20/3.to_f.floor %><br />
+		
+		counter: <%= counter = 10 -%><br />
+		counter: <%= counter = counter + 2 %><br />
+		counter: <%= counter = counter + 2 %><br />
+		counter: <%= counter += 2 %><br />
+		<br />
+		
+		<% value1 = nil -%>
+		<% value2 = 100 -%>
+		<% value1 ||= value2 -%>
+		<%= value1 %>
+			
+		</body>
+</html>

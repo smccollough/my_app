@@ -2080,3 +2080,378 @@ Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_string
 Processing ExploreController#ruby_strings (for 127.0.0.1 at 2011-05-12 10:09:40) [GET]
 Rendering explore/ruby_strings
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_strings]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:47:15) [GET]
+Rendering explore/ruby_numbers
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:51:07) [GET]
+Rendering explore/ruby_numbers
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:53:13) [GET]
+Rendering explore/ruby_numbers
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:54:31) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:56:34) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:57:01) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:57:18) [GET]
+Rendering explore/ruby_numbers
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:57:22) [GET]
+Rendering explore/ruby_numbers
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:58:20) [GET]
+Rendering explore/ruby_numbers
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 08:58:25) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:04:52) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:09:25) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:09:27) [GET]
+Rendering explore/ruby_numbers
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:09:31) [GET]
+Rendering explore/ruby_numbers
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:09:33) [GET]
+Rendering explore/ruby_numbers
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:10:04) [GET]
+Rendering explore/ruby_numbers
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing ExploreController#ruby_numbers (for 127.0.0.1 at 2011-05-13 09:10:12) [GET]
+Rendering explore/ruby_numbers
+Completed in 239ms (View: 237, DB: 0) | 200 OK [http://localhost/explore/ruby_numbers]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 06:45:19) [GET]
+Rendering say/goodbye
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:45:35) [GET]
+Rendering say/hello
+Completed in 68ms (View: 67, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:47:23) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:47:33) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:47:39) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 06:47:46) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 06:48:05) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:49:41) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#gooodbye (for 127.0.0.1 at 2011-05-15 06:49:42) [GET]
+
+ActionController::UnknownAction (No action responded to gooodbye. Actions: goodbye, hello, index, and welcome):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:49:50) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:49:51) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 06:49:51) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:52:44) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:53:15) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:53:28) [GET]
+Rendering say/hello
+Completed in 53ms (View: 52, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:53:54) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:54:01) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:55:34) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 06:58:54) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-05-15 06:58:57) [POST]
+
+ActionController::RoutingError (No route matches "/cgi-bin/example.cgi" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:00:05) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:00:16) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:00:30) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:01:10) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:02:52) [GET]
+Rendering say/hello
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:02:55) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:03:04) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:03:15) [GET]
+Rendering say/hello
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:03:36) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:44:29) [GET]
+Rendering say/goodbye
+Completed in 53ms (View: 51, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:44:31) [GET]
+Rendering say/hello
+Completed in 48ms (View: 46, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:44:38) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:44:40) [GET]
+Rendering say/hello
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:54:08) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/SAY/goodbye]
+
+
+Processing SayController#HELLO (for 127.0.0.1 at 2011-05-15 07:54:11) [GET]
+
+ActionController::UnknownAction (No action responded to HELLO. Actions: goodbye, hello, index, and welcome):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#HELLO (for 127.0.0.1 at 2011-05-15 07:54:33) [GET]
+
+ActionController::UnknownAction (No action responded to HELLO. Actions: goodbye, hello, index, and welcome):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:54:45) [GET]
+Rendering say/hello
+Completed in 41ms (View: 40, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:54:55) [GET]
+Rendering say/hello
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:55:43) [GET]
+Rendering say/hello
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:56:14) [GET]
+Rendering say/hello
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:56:27) [GET]
+Rendering say/hello
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:56:41) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:56:44) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 07:57:41) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:57:46) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:57:49) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:58:05) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:58:23) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 07:59:12) [GET]
+Rendering say/hello
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 08:18:11) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 08:18:16) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 08:18:19) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#goodbye (for 127.0.0.1 at 2011-05-15 08:18:22) [GET]
+Rendering say/goodbye
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/goodbye]
+
+
+Processing SayController#hello (for 127.0.0.1 at 2011-05-15 08:18:24) [GET]
+Rendering say/hello
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2011-05-15 08:18:35) [GET]
+  [4;36;1mSQL (12.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 218ms (View: 26, DB: 12) | 200 OK [http://localhost/rails/info/properties]
